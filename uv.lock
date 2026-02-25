@@ -27,15 +27,6 @@ wheels = [
 ]
 
 [[package]]
-name = "chardet"
-version = "5.2.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f3/0d/f7b6ab21ec75897ed80c17d79b15951a719226b9fababf1e40ea74d69079/chardet-5.2.0.tar.gz", hash = "sha256:1b3b6ff479a8c414bc3fa2c0852995695c4a026dcd6d0633b2dd092ca39c1cf7", size = 2069618, upload-time = "2023-08-01T19:23:02.662Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/38/6f/f5fbc992a329ee4e0f288c1fe0e2ad9485ed064cac731ed2fe47dcc38cbf/chardet-5.2.0-py3-none-any.whl", hash = "sha256:e1cf59446890a00105fe7b7912492ea04b6e6f06d4b742b2c788469e34c82970", size = 199385, upload-time = "2023-08-01T19:23:00.661Z" },
-]
-
-[[package]]
 name = "colorama"
 version = "0.4.6"
 source = { registry = "https://pypi.org/simple" }
@@ -588,11 +579,10 @@ wheels = [
 
 [[package]]
 name = "tox"
-version = "4.42.0"
+version = "4.46.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cachetools" },
-    { name = "chardet" },
     { name = "colorama" },
     { name = "filelock" },
     { name = "packaging" },
@@ -603,9 +593,9 @@ dependencies = [
     { name = "typing-extensions", marker = "python_full_version < '3.11'" },
     { name = "virtualenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e9/a0/c328df5d53f33e66789810748333408c2e9fca8eb4e95f0253041026ae2f/tox-4.42.0.tar.gz", hash = "sha256:5e018e281496fee16f860b5685adac8de14a42c9b2ad6c13df5632307ec9ea4f", size = 238505, upload-time = "2026-02-20T07:40:22.604Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/bb/ba/140537bbf7dd267b37a1519ac1451b6c062d300cb64b7b273dfa1b2af9aa/tox-4.46.0.tar.gz", hash = "sha256:b9d1aa187101dae184b7e6552f3b1ff85461e9e32f078851426e35a3c2009bc1", size = 249296, upload-time = "2026-02-24T17:53:36.171Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f3/84/2f6def05d59bab305208607acb5baa53a6f9781c6ef535f92064db825bc0/tox-4.42.0-py3-none-any.whl", hash = "sha256:841db009ab088748d91c49c850af4ebbe543712e9562f383b8c48f3172989163", size = 194360, upload-time = "2026-02-20T07:40:20.693Z" },
+    { url = "https://files.pythonhosted.org/packages/e2/15/e344f22ae5adce77769cb93f03635674df40de2604e98a71a3193f632766/tox-4.46.0-py3-none-any.whl", hash = "sha256:828f0a119a22028dbff7495d288e3601406478ab20c97891f66be5516d72e4c3", size = 200281, upload-time = "2026-02-24T17:53:34.228Z" },
 ]
 
 [[package]]
@@ -660,7 +650,7 @@ wheels = [
 
 [[package]]
 name = "virtualenv"
-version = "20.36.1"
+version = "20.39.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "distlib" },
@@ -668,7 +658,7 @@ dependencies = [
     { name = "platformdirs" },
     { name = "typing-extensions", marker = "python_full_version < '3.11'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/aa/a3/4d310fa5f00863544e1d0f4de93bddec248499ccf97d4791bc3122c9d4f3/virtualenv-20.36.1.tar.gz", hash = "sha256:8befb5c81842c641f8ee658481e42641c68b5eab3521d8e092d18320902466ba", size = 6032239, upload-time = "2026-01-09T18:21:01.296Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ed/54/809199edc537dbace273495ac0884d13df26436e910a5ed4d0ec0a69806b/virtualenv-20.39.0.tar.gz", hash = "sha256:a15f0cebd00d50074fd336a169d53422436a12dfe15149efec7072cfe817df8b", size = 5869141, upload-time = "2026-02-23T18:09:13.349Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6a/2a/dc2228b2888f51192c7dc766106cd475f1b768c10caaf9727659726f7391/virtualenv-20.36.1-py3-none-any.whl", hash = "sha256:575a8d6b124ef88f6f51d56d656132389f961062a9177016a50e4f507bbcc19f", size = 6008258, upload-time = "2026-01-09T18:20:59.425Z" },
+    { url = "https://files.pythonhosted.org/packages/f7/b4/8268da45f26f4fe84f6eae80a6ca1485ffb490a926afecff75fc48f61979/virtualenv-20.39.0-py3-none-any.whl", hash = "sha256:44888bba3775990a152ea1f73f8e5f566d49f11bbd1de61d426fd7732770043e", size = 5839121, upload-time = "2026-02-23T18:09:11.173Z" },
 ]
