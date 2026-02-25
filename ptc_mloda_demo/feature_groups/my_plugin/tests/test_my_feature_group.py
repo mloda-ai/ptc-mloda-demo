@@ -1,6 +1,6 @@
 """Tests for MyFeatureGroup."""
 
-from placeholder.feature_groups.my_plugin import MyFeatureGroup
+from ptc_mloda_demo.feature_groups.my_plugin import MyFeatureGroup
 from mloda.provider import FeatureGroup
 
 

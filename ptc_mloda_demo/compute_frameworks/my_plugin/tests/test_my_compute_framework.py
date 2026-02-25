@@ -1,6 +1,6 @@
 """Tests for MyComputeFramework."""
 
-from placeholder.compute_frameworks.my_plugin import MyComputeFramework
+from ptc_mloda_demo.compute_frameworks.my_plugin import MyComputeFramework
 from mloda.provider import ComputeFramework
 
 

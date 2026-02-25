@@ -1,6 +1,6 @@
 """Tests for MyExtender."""
 
-from placeholder.extenders.my_plugin import MyExtender
+from ptc_mloda_demo.extenders.my_plugin import MyExtender
 from mloda.core.abstract_plugins.function_extender import Extender
 
 
