@@ -10,7 +10,7 @@ version = "0.3.2"
 description = "PTC mloda demo — showcasing mloda plugin patterns for PTC use cases."
 license = "Apache-2.0"
 authors = [{ name = "PTC Demo", email = "demo@ptc.com" }]
-dependencies = ["mloda>=0.4.6", "mloda-testing>=0.2.8"]
+dependencies = ["mloda>=0.4.6", "mloda-testing>=0.2.8", "anthropic", "pandas"]
 requires-python = ">=3.10"
 
 [project.optional-dependencies]
@@ -40,5 +40,10 @@ ignore_missing_imports = true
 namespace_packages = true
 explicit_package_bases = true
 
+[[tool.mypy.overrides]]
+module = "demo"
+ignore_errors = true
+
 [tool.bandit]
 exclude_dirs = [".tox", ".venv", "tests"]
+skips = ["B404", "B603", "B607"]

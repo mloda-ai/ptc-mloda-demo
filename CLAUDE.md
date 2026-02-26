@@ -40,6 +40,12 @@ mypy --strict --ignore-missing-imports .
 bandit -c pyproject.toml -r -q .
 ```
 
+## Plugin Development Guides
+
+Consult the mloda-registry guides before building new plugins:
+- Local path: `/home/tom/project/mloda-registry/docs/guides/`
+- Key patterns: `feature-group-patterns/01-root-features.md`, `01-use-existing-plugin.md`
+
 ## Commit messages
 
 Use Conventional Commit format for all commits so semantic versioning/release tooling can parse intent.

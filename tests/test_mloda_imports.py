@@ -1,4 +1,4 @@
-"""Tests to verify mloda dependencies can be imported."""
+"""Tests to verify mloda dependencies and demo plugin can be imported."""
 
 
 def test_mloda_provider_imports() -> None:
@@ -21,3 +21,13 @@ def test_mloda_testing_imports() -> None:
     from mloda.testing import FeatureGroupTestBase
 
     assert FeatureGroupTestBase is not None
+
+
+def test_employee_data_features_import() -> None:
+    """Verify the demo FeatureGroup can be imported and extends FeatureGroup."""
+    from mloda.provider import FeatureGroup
+
+    from ptc_mloda_demo.feature_groups.sample_data.sample_data_features import EmployeeDataFeatures
+
+    assert issubclass(EmployeeDataFeatures, FeatureGroup)
+    assert len(EmployeeDataFeatures.feature_names_supported()) == 5
